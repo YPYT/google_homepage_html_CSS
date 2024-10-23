@@ -13,14 +13,14 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 14px;
-    gap: 14px;
+    padding: 1rem;
+    gap: 1remx;
 }
 
 .nav-container {
     display: flex;
     align-items: center;
-    gap: 14px;
+    gap: 1rem;
 }
 
 .img-button {
@@ -29,7 +29,7 @@ header {
 }
 
 .img-button img {
-    width: 40px;
+    width: 30px;
     aspect-ratio: 1/1;
     overflow: hidden;
     border-radius: 100%;
