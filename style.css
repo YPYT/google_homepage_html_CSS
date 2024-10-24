@@ -122,3 +122,20 @@ main {
 .input-icon:hover {
     opacity: 0.6;
 }
+
+.button-grid {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.button-grid button {
+    padding: 0.5rem 1rem;
+    border: 1px solid transparent;
+    background-color: rgb(247, 247, 247);
+    border-radius: 0.25rem;
+}
+
+.button-grid button:hover {
+    border: 1px solid slategray;
+}
