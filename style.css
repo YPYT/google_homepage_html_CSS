@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: "Inter", sans-serif;
+    color: #0f172a;
 }
 
 body {
@@ -10,6 +11,10 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+}
+
+button {
+    cursor: pointer;
 }
 
 .google-header {
@@ -72,8 +77,12 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 2rem;
     padding: 1rem;
+}
+
+.title-text {
+    font-size: 3rem;
 }
 
 .input-bar {
@@ -87,7 +96,8 @@ main {
     border-radius: 1rem;
 }
 
-.input-bar:hover {
+.input-bar:hover,
+.input-bar:focus-within {
     box-shadow: 0 0 4px 1px rgb(237, 237, 237);
 }
 
@@ -102,4 +112,13 @@ main {
     display: flex;
     align-items: center;
     gap: 1rem;
+}
+
+.input-icon {
+    background: transparent;
+    border: none;
+}
+
+.input-icon:hover {
+    opacity: 0.6;
 }
