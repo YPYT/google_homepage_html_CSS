@@ -153,3 +153,29 @@ main {
 .language-link:hover {
     text-decoration: underline;
 }
+
+footer {
+    background-color: rgb(244, 244, 244);
+    font-size: 0.8rem;
+}
+
+footer > div {
+    padding: 1rem;
+}
+
+.footer-grid {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer-links a {
+    text-decoration: none;
+}
