@@ -139,3 +139,17 @@ main {
 .button-grid button:hover {
     border: 1px solid slategray;
 }
+
+.language-text {
+    font-size: 0.7rem;
+}
+
+.language-link {
+    color: blue;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.language-link:hover {
+    text-decoration: underline;
+}
